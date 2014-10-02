@@ -185,3 +185,48 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 30px;
 }
 /*Objectives End*/
+
+/*About Me*/
+/*About Me Ends*/
+
+/*Skills*/
+.skills {
+	padding: 60px 0;
+}
+
+.skills .section-head h1 {
+	padding-bottom: 45px;
+}
+
+.skills .section-head p {
+	line-height: 24px;
+}
+
+.skills-btn {
+	padding-top: 30px;
+}
+
+.skills .btn-primary {
+	text-transform: uppercase;
+	font-size: 18px;
+	padding: 14px;
+}
+
+.skills-progress-bar {
+	padding-top: 45px;
+}
+
+.skills-progress-bar h1 {
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.progress {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+.progress-bar {
+	box-shadow: none;
+}
+/*Skills End*/
