@@ -46,3 +46,79 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/*Global Styles*/
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #919191;
+}
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: #566366;
+	font-weight: 500;
+}
+
+.btn {
+	border-radius: 0;
+	box-shadow: none;
+	background: none;
+	border: 1px solid #2ecc71;
+	color: #2ecc71;
+}
+
+.section-head h1 {
+	font-size: 30px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+/*Global Styles End*/
+
+/*Jumbotron*/
+.jumbotron {
+	background: url("../img/banner.jpg") no-repeat;
+	background-size: cover;
+	max-height: 700px;
+	margin: 0;
+}
+
+.jumbotron h1 {
+	color: #fff;
+	font-weight: 300;
+	font-size: 90px;
+	text-transform: uppercase;
+	padding-top: 180px;
+	padding-bottom: 30px;
+}
+
+.jumbotron h1 span {
+	font-weight: 700;
+}
+
+.jumbotron h2 {
+	color: #fff;
+	font-size: 60px;
+	font-weight: 500;
+	text-transform: uppercase;
+	border-top: 3px solid #fff;
+	border-bottom: 3px solid #fff;
+}
+
+.banner-btn {
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.jumbotron .btn-default {
+	border: 2px solid #fff;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+/*Jumbotron Ends*/
