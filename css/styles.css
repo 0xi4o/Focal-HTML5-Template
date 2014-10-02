@@ -309,4 +309,37 @@ h1, h2, h3, h4, h5, h6 {
 	background: #e3e3e3;
 	padding: 60px 0;
 }
+
+.experience .section-head h1 {
+	padding-bottom: 45px;
+}
+
+.experience .experience-text p {
+	line-height: 24px;
+	padding-bottom: 30px;
+}
+
+.experience-info .exp-section h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.experience-info .exp-section h2 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.experience-info .exp-section h2 span {
+	font-weight: 500;
+}
+
+.experience-info .exp-section h3 {
+	padding-bottom: 20px;
+}
+
+.experience-info .exp-section p {
+	line-height: 24px;
+	padding-bottom: 60px;
+}
 /*Experience End*/
