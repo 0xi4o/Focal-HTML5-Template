@@ -46,6 +46,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*Reset CSS End*/
 
 /*Global Styles*/
 body {
@@ -93,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 90px;
 	text-transform: uppercase;
 	padding-top: 180px;
-	padding-bottom: 30px;
+	padding-bottom: 40px;
 }
 
 .jumbotron h1 span {
@@ -343,3 +344,59 @@ h1, h2, h3, h4, h5, h6 {
 	padding-bottom: 60px;
 }
 /*Experience End*/
+
+/*Testimonial*/
+
+/*Testimonial End*/
+
+/*Portfolio*/
+/*Portfolio End*/
+
+/*Contact*/
+.contact-me {
+	background: #252e30;
+	padding: 60px;
+}
+
+.contact-me .section-head h1 {
+	color: #fff;
+	padding-bottom: 45px;
+}
+
+.contact-info p:first-child {
+	line-height: 24px;
+	padding-bottom: 30px;
+}
+
+.contact-detail {
+	color: #fff;
+	padding-bottom: 10px;
+}
+
+.contact-detail span {
+	color: #919191;
+}
+
+.form-control {
+	border-radius: 0;
+	height: 50px;
+	font-size: 18px;
+	background: #4b5456;
+	border: none;
+}
+
+.contact-form .btn-primary {
+	background: #191f21;
+	border: none;
+	width: 100%;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+.fa-paper-plane {
+	padding-right: 10px;
+}
+/*Contact Me*/
+
+/*Footer*/
+/*Footer End*/
