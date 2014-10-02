@@ -264,3 +264,49 @@ h1, h2, h3, h4, h5, h6 {
 	border: 1px solid #2ecc71;
 }
 /*Resume End*/
+
+/*Education*/
+.education {
+	padding: 60px 0;
+}
+
+.education .section-head h1 {
+	padding-bottom: 45px;
+}
+
+.education .education-text p {
+	line-height: 24px;
+	padding-bottom: 30px;
+}
+
+.education-info .edu-section h1 {
+	font-size: 22px;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+}
+
+.education-info .edu-section h2 {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.education-info .edu-section h2 span {
+	font-weight: 500;
+}
+
+.education-info .edu-section h3 {
+	padding-bottom: 20px;
+}
+
+.education-info .edu-section p {
+	line-height: 24px;
+	padding-bottom: 60px;
+}
+/*Education End*/
+
+/*Experience*/
+.experience {
+	background: #e3e3e3;
+	padding: 60px 0;
+}
+/*Experience End*/
