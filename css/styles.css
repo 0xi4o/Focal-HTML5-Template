@@ -121,6 +121,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	text-transform: uppercase;
 }
+
+.jumbotron .btn-default:hover {
+	background: rgba(255, 255, 255, 0.15);
+}
 /*Jumbotron Ends*/
 
 /*Navigation*/
@@ -166,3 +170,18 @@ h1, h2, h3, h4, h5, h6 {
 	color: #2ecc71;
 }
 /*Navigation Ends*/
+
+/*Objectives*/
+.objective {
+	margin-top: -20px;
+	padding-bottom: 60px;
+}
+.objective .section-head h1 {
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.objective .section-head p {
+	line-height: 30px;
+}
+/*Objectives End*/
