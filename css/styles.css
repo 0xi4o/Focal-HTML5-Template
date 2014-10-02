@@ -377,12 +377,21 @@ h1, h2, h3, h4, h5, h6 {
 	color: #919191;
 }
 
+.form-group {
+	padding-bottom: 10px;
+}
+
 .form-control {
 	border-radius: 0;
 	height: 50px;
 	font-size: 18px;
 	background: #4b5456;
 	border: none;
+	box-shadow: none;
+}
+
+.form-control:active, .form-control:focus {
+	border: 1px solid #fff;
 }
 
 .contact-form .btn-primary {
@@ -391,6 +400,7 @@ h1, h2, h3, h4, h5, h6 {
 	width: 100%;
 	font-size: 18px;
 	text-transform: uppercase;
+	color: #fff;
 }
 
 .fa-paper-plane {
@@ -399,4 +409,30 @@ h1, h2, h3, h4, h5, h6 {
 /*Contact Me*/
 
 /*Footer*/
+footer {
+	padding: 60px 0;
+	background: #191f21;
+}
+
+footer small {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+.copyright {
+	padding-bottom: 20px;
+}
+
+.social-icons a {
+	text-decoration: none;
+}
+
+.social-icons i {
+	padding: 10px 10px;
+	color: #252e30;
+}
+
+.social-icons i:hover {
+	color: #fff;
+}
 /*Footer End*/
