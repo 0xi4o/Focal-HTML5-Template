@@ -82,7 +82,10 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Jumbotron*/
 .jumbotron {
-	background: url("../img/banner.jpg") no-repeat;
+	background: url("../img/banner.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
 	background-size: cover;
 	max-height: 700px;
 	margin: 0;
@@ -162,6 +165,7 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	background: none;
 	text-align: center;
+	padding: 11px 0;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
@@ -610,6 +614,37 @@ footer small {
 
 /*Media Queries*/
 @media(max-width: 480px) {
-	
+	.jumbotron h1 {font-size: 30px;}
+	.jumbotron h2 {font-size: 24px;}
+	.jumbotron .btn-default {font-size: 12px;}
+}
+
+@media(min-width: 480px) {
+	.jumbotron h1 {font-size: 45px;}
+	.jumbotron h2 {font-size: 33px;}
+	.jumbotron .btn-default {font-size: 14px;}
+}
+
+@media(min-width: 768px) {
+	.jumbotron h1 {font-size: 60px;}
+	.jumbotron h2 {font-size: 42px;}
+	.jumbotron .btn-default {font-size: 16px;}
+	.navbar-default .navbar-nav {float: right;}
+	.navbar-default .navbar-nav > li {margin-left: 14px;}
+	.navbar-default .navbar-nav > li > a {padding: 14px 0;}
+}
+
+@media(min-width: 992px) {
+	.jumbotron h1 {font-size: 75px;}
+	.jumbotron h2 {font-size: 51px;}
+	.jumbotron .btn-default {font-size: 18px;}
+	.navbar-default .navbar-nav > li {margin-left: 30px;}
+}
+
+@media(min-width: 1200px) {
+	.jumbotron h1 {font-size: 90px;}
+	.jumbotron h2 {font-size: 60px;}
+	.jumbotron .btn-default {font-size: 18px;}
+	.navbar-default .navbar-nav > li {margin-left: 40px;}
 }
 /*Media Queries End*/
