@@ -468,7 +468,7 @@ h1, h2, h3, h4, h5, h6 {
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2ecc71;
+	background: #252e30;
 	color: #fff;
 }
 
@@ -590,8 +590,17 @@ footer {
 }
 
 footer small {
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;
+}
+
+footer .copyright a {
+	text-decoration: none;
+	color: #252e30;
+}
+
+footer .copyright a:hover {
+	color: #e3e3e3;
 }
 
 .copyright {
@@ -614,12 +623,14 @@ footer small {
 
 /*Media Queries*/
 @media(max-width: 480px) {
+	.jumbotron .row {text-align: center;}
 	.jumbotron h1 {font-size: 30px;}
 	.jumbotron h2 {font-size: 24px;}
 	.jumbotron .btn-default {font-size: 12px;}
 }
 
 @media(min-width: 480px) {
+	.jumbotron .row {text-align: center;}
 	.jumbotron h1 {font-size: 45px;}
 	.jumbotron h2 {font-size: 33px;}
 	.jumbotron .btn-default {font-size: 14px;}
@@ -632,6 +643,7 @@ footer small {
 	.navbar-default .navbar-nav {float: right;}
 	.navbar-default .navbar-nav > li {margin-left: 14px;}
 	.navbar-default .navbar-nav > li > a {padding: 14px 0;}
+	.row {text-align: left;}
 }
 
 @media(min-width: 992px) {
