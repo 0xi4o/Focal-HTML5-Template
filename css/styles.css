@@ -393,6 +393,99 @@ h1, h2, h3, h4, h5, h6 {
 /*Testimonial End*/
 
 /*Portfolio*/
+.portfolio {
+	padding: 60px 0;
+}
+
+.portfolio .section-head h1 {
+	padding-bottom: 45px;
+}
+
+.portfolio .section-head p {
+	line-height: 24px;
+}
+
+.portfolio .gallery {
+	text-align: center;
+}
+
+.portfolio .gallery li {
+	display: inline-block;
+	width: 340px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.portfolio .gallery .gallery-image {
+	margin: 0;
+	position: relative;
+}
+
+.portfolio .gallery .gallery-image img {
+	width: 100%;
+	display: block;
+	position: relative;
+}
+
+.portfolio .gallery .image-caption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2ecc71;
+	color: #fff;
+}
+
+.portfolio .gallery .image-caption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.gallery-hover-style .image-caption {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	text-align: center;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.gallery-hover-style .gallery-image:hover .image-caption {
+	opacity: 0.7;
+	-webkit-transform: translate(5px, 5px);
+	-moz-transform: translate(5px, 5px);
+	-ms-transform: translate(5px, 5px);
+	transform: translate(5px, 5px);
+}
+
+.portfolio .gallery .gallery-image .image-caption h3 {
+	font-size: 30px;
+	font-weight: 300;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+.portfolio .gallery .gallery-image .image-caption span {
+	display: block;
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+
+.portfolio .gallery .gallery-image .image-caption .btn-default {
+	font-size: 16px;
+	background: #191f21;
+	color: #fff;
+	text-transform: uppercase;
+}
+
 /*Portfolio End*/
 
 /*Contact*/
