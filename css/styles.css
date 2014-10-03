@@ -607,3 +607,9 @@ footer small {
 	color: #fff;
 }
 /*Footer End*/
+
+/*Media Queries*/
+@media(max-width: 480px) {
+	
+}
+/*Media Queries End*/
