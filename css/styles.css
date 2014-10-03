@@ -188,6 +188,49 @@ h1, h2, h3, h4, h5, h6 {
 /*Objectives End*/
 
 /*About Me*/
+.about-me {
+	background: #f2f2f1;
+}
+
+.about-me .portrait {
+	padding-left: 0;
+}
+
+.about-me .row > div {
+	display: inline-block;
+}
+
+.about-me .section-head {
+	padding-bottom: 25px;
+}
+
+.about-me .section-head h1 {
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.about-me .section-head p {
+	line-height: 24px;
+}
+
+.expertise .expertise-split-up h1 {
+	font-size: 22px;
+	font-weight: 500;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.expertise .expertise-split-up p {
+	line-height: 24px;
+}
+
+.icons {
+	padding-top: 20px;
+}
+
+.icons .fa {
+	color: #2ecc71;
+}
 /*About Me Ends*/
 
 /*Skills*/
@@ -220,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .skills-progress-bar {
-	padding-top: 45px;
+	padding-top: 80px;
 }
 
 .skills-progress-bar h1 {
@@ -401,6 +444,11 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 18px;
 	text-transform: uppercase;
 	color: #fff;
+}
+
+.contact-form .btn-primary:hover {
+	background: #fff;
+	color: #191f21;
 }
 
 .fa-paper-plane {
