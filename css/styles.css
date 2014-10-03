@@ -172,6 +172,27 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
 	color: #2ecc71;
 }
+
+.navbar-default .navbar-toggle {
+	border-color: #2ecc71;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #2ecc71;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background: none;
+}
+
+.sticky {  
+    position: fixed;  
+    width: 100%;  
+    left: 0;  
+    top: 0;  
+    z-index: 100;  
+    border-top: 0;  
+}
 /*Navigation Ends*/
 
 /*Objectives*/

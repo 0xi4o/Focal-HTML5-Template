@@ -15,9 +15,9 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navigation-bar" data-offset="10">
 	<!-- Jumbotron -->
-	<div class="jumbotron">
+	<div class="jumbotron" id="home">
 		<div class="container-fluid">
 			<div class="row text-center">
 				<h1>Nate <span>River</span></h1>
@@ -43,15 +43,14 @@
 			</div>
 
 			<!-- Collect the nav links, forms, and other content for toggling -->
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			<div class="collapse navbar-collapse navigation-bar" id="bs-example-navbar-collapse-1">
 				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#">Home</a></li>
-					<li><a href="#">About Me</a></li>
-					<li><a href="#">Skills</a></li>
-					<li><a href="#">Resume</a></li>
-					<li><a href="#">Testimonials</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Contact Me</a></li>
+					<li class="active"><a href="#home">Home</a></li>
+					<li><a href="#aboutme">About Me</a></li>
+					<li><a href="#skills">Skills</a></li>
+					<li><a href="#resume">Resume</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#contact">Contact Me</a></li>
 				</ul>
 			</div>
 		</div>
@@ -80,7 +79,7 @@
 	<!-- Objective Ends -->
 
 	<!-- About Me -->
-	<div class="about-me">
+	<div class="about-me" id="aboutme">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="portrait col-md-5">
@@ -129,7 +128,7 @@
 	<!-- About Me Ends -->
 	
 	<!-- Skills -->
-	<div class="skills">
+	<div class="skills" id="skills">
 		<div class="container">
 			<div class="row">
 				<div class="section-head col-md-6">
@@ -178,7 +177,7 @@
 	<!-- Skills Ends -->
 
 	<!-- Resume -->
-	<div class="resume">
+	<div class="resume" id="resume">
 		<div class="container">
 			<div class="row text-center">
 				<div class="section-head col-md-12">
@@ -262,7 +261,7 @@
 	<!-- Experience Ends -->
 
 	<!-- Portfolio -->
-	<div class="portfolio">
+	<div class="portfolio" id="portfolio">
 		<div class="container">
 			<div class="row">
 				<div class="section-head col-md-12 text-center">
@@ -367,7 +366,7 @@
 	<!-- Portfolio Ends -->
 	
 	<!-- Contact -->
-	<div class="contact-me">
+	<div class="contact-me" id="contact">
 		<div class="container">
 			<div class="row">
 				<div class="section-head col-md-12">
@@ -431,6 +430,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 	<script src="js/scrollReveal.js"></script>
 	<script>
 		window.scrollReveal = new scrollReveal();
