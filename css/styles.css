@@ -490,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
 /*Contact*/
 .contact-me {
 	background: #252e30;
-	padding: 60px;
+	padding: 60px 0;
 }
 
 .contact-me .section-head h1 {
