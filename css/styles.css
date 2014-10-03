@@ -94,7 +94,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 90px;
 	text-transform: uppercase;
 	padding-top: 180px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .jumbotron h1 span {
@@ -108,11 +108,13 @@ h1, h2, h3, h4, h5, h6 {
 	text-transform: uppercase;
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
+	display: inline-block;
+	padding: 10px 0;
 }
 
 .banner-btn {
 	padding-top: 60px;
-	padding-bottom: 40px;
+	padding-bottom: 30px;
 }
 
 .jumbotron .btn-default {
@@ -403,6 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio .section-head p {
 	line-height: 24px;
+	padding-bottom: 30px;
 }
 
 .portfolio .gallery {
