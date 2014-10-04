@@ -229,6 +229,10 @@ h1, h2, h3, h4, h5, h6 {
 	background: #f2f2f1;
 }
 
+.about-me .about-me-text {
+	padding-right: 40px;
+}
+
 .about-me .portrait {
 	padding-left: 0;
 }
